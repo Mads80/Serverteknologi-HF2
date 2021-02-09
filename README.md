@@ -71,3 +71,7 @@ DHCP virker på Client1.
 <br/>
 ![dhcp-virker-client1](images/dhcp-virker-client1.png)
 <br/>
+## Del-4
+![ftpdata-properties-domain-users](images/ftpdata-properties-domain-users.png)
+<br/>
+![ftp-server2-access-client1](images/ftp-server2-access-client1.png)
