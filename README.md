@@ -109,7 +109,7 @@ DHCP virker på Client1.
 <br/>
 <!-------------------------------------------------------------------- DEL-4 ---------------------------------------------------------------------------------------->
 ## Del-4
-For at kunne pinge og ftp til Server2 har vi deaktiveret firewall.
+For at kunne ping og ftp til Server2 har vi deaktiveret firewall.
 <br/>
 ![disable-firewall-server2](images/disable-firewall-server2.png)
 <br/>
