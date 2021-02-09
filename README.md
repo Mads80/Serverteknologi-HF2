@@ -67,6 +67,17 @@ Installerer DNS på Server2.
 ## Del-3
 Opsætning af DHCP.
 <br/>
+Vi har ikke brug for at konfigurere en IpHelper (DHCP Relay agent) da alle enheder er på samme fysiske subnet.
+<br/>
+DHCP options 003, 006 og 015 konfigureres på DHCP serveren:
+003 Router: Angiver en liste over Ip-adresser over alle routere på samme subnet som DHCP klienterne. 
+Klienterne kender nu alle de routere der er tilgængelige på nettet så de kan kontaktes efter behov hvis der skal sendes IP pakker til hosts på andre netværk.
+<br/>
+006 DNS Servers: Ip-adressen på de DNS servere, på subnettet, som DHCP klienter kan kontakte hvis de skal have fat i en IP-adresse via domænenavnet eller omvendt.
+<br/>
+015 DNS Domain Name: Angiver det domæne navn som DHCP klienter skal anvende hvis de skal resolve et ukvalificeret domæne navn. 
+Denne indstillinger tillader også at DHCP klienter kan lave dynamiske DNS opdateringer.
+<br/>
 ![add-client1-to-domain](images/add-client1-to-domain.png)
 <br/>
 DHCP virker på Client1.
