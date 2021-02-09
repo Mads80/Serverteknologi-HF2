@@ -23,6 +23,7 @@ Af Mark, Jacob & Mads
 	* [Underpunkt-2](#)
 * [Del-12](#)
 
+<!-------------------------------------------------------------------- DEL-1 ---------------------------------------------------------------------------------------->
 ## Del-1
 ### VMWare
 Opretter et extra netkort på Server1 og sætter det til Custom (VMnet4).
@@ -56,6 +57,7 @@ Tilføjer Server2 og Server3 til domænet jmm.local.
 Resultat.
 <br/>
 ![join-domain-server2](images/join-domain-server2.png)
+<!-------------------------------------------------------------------- DEL-2 ---------------------------------------------------------------------------------------->
 ## Del-2
 Opsætning af DNS Forward Lookup Zone (FLZ) og Reverse Lookup Zone (RLZ) for vores domæne.
 <br/>
@@ -64,9 +66,8 @@ Installerer DNS på Server2.
 <br/>
 ![add-dns-server-server2](images/add-dns-server-server2.png)
 <br/>
+<!-------------------------------------------------------------------- DEL-3 ---------------------------------------------------------------------------------------->
 ## Del-3
-Opsætning af DHCP.
-<br/>
 Vi har ikke brug for at konfigurere en IpHelper (DHCP Relay agent) da alle enheder er på samme fysiske subnet.
 <br/>
 <br/>
@@ -82,12 +83,29 @@ Klienterne kender nu alle de routere der er tilgængelige på nettet så de kan 
 Denne indstillinger tillader også at DHCP klienter kan lave dynamiske DNS opdateringer.
 <br/>
 <br/>
+Opsætning af DHCP.
+<br/>
+![dhcp-install-auth](images/dhcp-install-auth.png)
+<br/>
+![dhcp-install-scope](images/dhcp-install-scope.png)
+<br/>
+![dhcp-install-ip-range](images/dhcp-install-ip-range.png)
+<br/>
+![dhcp-install-lease-duration](images/dhcp-install-lease-duration.png)
+<br/>
+![dhcp-install-default-gateway](images/dhcp-install-default-gateway.png)
+<br/>
+![dhcp-install-domain-dns](images/dhcp-install-domain-dns.png)
+<br/>
+![dhcp-scope-options](images/dhcp-scope-options.png)
+<br/>
 ![add-client1-to-domain](images/add-client1-to-domain.png)
 <br/>
 DHCP virker på Client1.
 <br/>
 ![dhcp-virker-client1](images/dhcp-virker-client1.png)
 <br/>
+<!-------------------------------------------------------------------- DEL-4 ---------------------------------------------------------------------------------------->
 ## Del-4
 ![ftpdata-properties-domain-users](images/ftpdata-properties-domain-users.png)
 <br/>
