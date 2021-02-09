@@ -67,6 +67,8 @@ Installerer DNS på Server2.
 ## Del-3
 Opsætning af DHCP.
 <br/>
+![add-client1-to-domain](images/add-client1-to-domain.png)
+<br/>
 DHCP virker på Client1.
 <br/>
 ![dhcp-virker-client1](images/dhcp-virker-client1.png)
