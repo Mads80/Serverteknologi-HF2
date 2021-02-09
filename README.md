@@ -99,6 +99,8 @@ Opsætning af DHCP.
 <br/>
 ![dhcp-scope-options](images/dhcp-scope-options.png)
 <br/>
+Tilføjer vores klient til domænet jmm.local.
+<br/>
 ![add-client1-to-domain](images/add-client1-to-domain.png)
 <br/>
 DHCP virker på Client1.
