@@ -109,6 +109,10 @@ DHCP virker på Client1.
 <br/>
 <!-------------------------------------------------------------------- DEL-4 ---------------------------------------------------------------------------------------->
 ## Del-4
+For at kunne pinge og ftp til Server2 har vi disablet firewall på Server2.
+<br/>
+![disable-firewall-server2](images/disable-firewall-server2.png)
+<br/>
 ![ftpdata-properties-domain-users](images/ftpdata-properties-domain-users.png)
 <br/>
 ![ftp-server2-access-client1](images/ftp-server2-access-client1.png)
