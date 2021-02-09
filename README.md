@@ -43,6 +43,7 @@ Omdøber server nummer 3, til Server3. (Det gør vi for alle 3 servere inden vi 
 <br/>
 Vælger server roller på Server1. ADDS, DHCP og DNS.
 ![server-roles-server1](images/server-roles-server1.png)
+<br/>
 Sætter statisk IP på Server2 og Server3.
 <br/>
 ![ipv4-server2](images/ipv4-server2.png)
