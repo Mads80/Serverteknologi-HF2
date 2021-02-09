@@ -81,6 +81,7 @@ Klienterne kender nu alle de routere der er tilgængelige på nettet så de kan 
 015 DNS Domain Name: Angiver det domæne navn som DHCP klienter skal anvende hvis de skal resolve et ukvalificeret domæne navn. 
 Denne indstillinger tillader også at DHCP klienter kan lave dynamiske DNS opdateringer.
 <br/>
+<br/>
 ![add-client1-to-domain](images/add-client1-to-domain.png)
 <br/>
 DHCP virker på Client1.
