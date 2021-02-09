@@ -60,9 +60,13 @@ Opsætning af DNS Forward Lookup Zone (FLZ) og Reverse Lookup Zone (RLZ) for vor
 <br/>
 <br/>
 Installerer DNS på Server2.
+<br/>
 ![add-dns-server-server2](images/add-dns-server-server2.png)
+<br/>
 ## Del-3
 Opsætning af DHCP.
-
+<br/>
 DHCP virker på Client1.
+<br/>
 ![dhcp-virker-client1](images/dhcp-virker-client1.png)
+<br/>
