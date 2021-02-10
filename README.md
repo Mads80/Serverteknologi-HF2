@@ -22,6 +22,7 @@ Af Jacob, Mark & Mads (JMM.LOCAL)
 	* [Underpunkt-2](#)
 
 <!-------------------------------------------------------------------- DEL-1 ---------------------------------------------------------------------------------------->
+
 ## Del-1
 ### VMWare
 Opretter et extra netkort på Server1 og sætter det til Custom (VMnet4).
@@ -56,6 +57,7 @@ Resultat.
 <br/>
 ![join-domain-server2](images/join-domain-server2.png)
 <!-------------------------------------------------------------------- DEL-2 ---------------------------------------------------------------------------------------->
+
 ## Del-2
 Opsætning af DNS Forward Lookup Zone (FLZ) og Reverse Lookup Zone (RLZ) for vores domæne.
 <br/>
@@ -80,6 +82,7 @@ blive replikeret til all domæne kontrollere indenfor samme domæne og forest hv
 <br/>
 Secondary DNS zone er en read-only kopi af den primære DNS zone som der anvendes. Den kan ikke selv uddele opdateringer på domænet men kan kun modtage fra den primære zone.
 <!-------------------------------------------------------------------- DEL-3 ---------------------------------------------------------------------------------------->
+
 ## Del-3
 Opsætning af DHCP.
 <br/>
@@ -120,6 +123,7 @@ Klienterne kender nu alle de routere der er tilgængelige på nettet så de kan 
 Denne indstillinger tillader også at DHCP klienter kan lave dynamiske DNS opdateringer.
 <br/>
 <!-------------------------------------------------------------------- DEL-4 ---------------------------------------------------------------------------------------->
+
 ## Del-4
 For at kunne ping og ftp til Server2 har vi deaktiveret firewall.
 <br/>
@@ -147,8 +151,11 @@ Wireshark efter kryptering af TCP-traffikken.
 <br/>
 ![ftp-wireshark-esp](images/ftp-wireshark-esp.png)
 <br/>
+Client1 har adgang til FTP-mappen på Server2.
+<br/>
 ![ftp-server2-access-client1](images/ftp-server2-access-client1.png)
 <!-------------------------------------------------------------------- DEL-5 ---------------------------------------------------------------------------------------->
+
 ## Del-5
 ![remote-access-management-console](images/remote-access-management-console.png)
 <br/>
