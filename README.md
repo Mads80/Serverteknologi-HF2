@@ -114,7 +114,7 @@ For at kunne ping og ftp til Server2 har vi deaktiveret firewall.
 <br/>
 ![ftp-server2-access-client1](images/ftp-server2-access-client1.png)
 <!-------------------------------------------------------------------- DEL-5 ---------------------------------------------------------------------------------------->
-##Del-5
+## Del-5
 <br/>
 ![remote-access-management-console](images/remote-access-management-console.png)
 <br/>
