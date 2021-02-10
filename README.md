@@ -64,6 +64,7 @@ Installerer DNS på Server2.
 <br/>
 ![add-dns-server-server2](images/add-dns-server-server2.png)
 <br/>
+<br/>
 FLZ og RLZ står for Forward- og Reverse lookup zones og de lægger basis for hvad DNS-servers gør. 
 En Forward lookup zone mapper domænenavne til ip-adresser og gemmer informationen som 
 DNS-serveren som helhed så kan gøre brug af. Reverse lookup zone er det modsatte, det vil sige den mapper og lagre ip-adresser til domænenavne. 
