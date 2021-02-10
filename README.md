@@ -64,6 +64,20 @@ Installerer DNS på Server2.
 <br/>
 ![add-dns-server-server2](images/add-dns-server-server2.png)
 <br/>
+FLZ og RLZ står for Forward- og Reverse lookup zones og de lægger basis for hvad DNS-servers gør. 
+En Forward lookup zone mapper domænenavne til ip-adresser og gemmer informationen som 
+DNS-serveren som helhed så kan gøre brug af. Reverse lookup zone er det modsatte, det vil sige den mapper og lagre ip-adresser til domænenavne. 
+<br/>
+<br/>
+_Msdcs zonen, også kendt som Microsoft domain controller service, er en zone der har til formål 
+at lokalisere AD domænekontrollere, som der lagres i SRV records (domænenavne til ip-adresse liste), samt gøre det let at replikere dem (lagres i CNAME records).
+<br/>
+<br/>
+Active Directory Integrated Zone gemmer alt sin data i AD. Derved kan alle integreret DNS zoner 
+blive replikeret til all domæne kontrollere indenfor samme domæne og forest hvilket skaber forbedret redundans skulle man være ude for nedbrud.
+<br/>
+<br/>
+Secondary DNS zone er en read-only kopi af den primære DNS zone som der anvendes. Den kan ikke selv uddele opdateringer på domænet men kan kun modtage fra den primære zone.
 <!-------------------------------------------------------------------- DEL-3 ---------------------------------------------------------------------------------------->
 ## Del-3
 Opsætning af DHCP.
