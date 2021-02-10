@@ -109,7 +109,19 @@ Denne indstillinger tillader også at DHCP klienter kan lave dynamiske DNS opdat
 For at kunne ping og ftp til Server2 har vi deaktiveret firewall.
 <br/>
 ![disable-firewall-server2](images/disable-firewall-server2.png)
+![ftp-add-server-roles](images/ftp-add-server-roles.png)
+![ftp-select-role-services](images/ftp-select-role-services.png)
+![ftp-opret-fildata-folder](images/ftp-opret-fildata-folder.png)
+![ftp-add-ftp-site](images/ftp-add-ftp-site.png)
+![ftp-site-information](images/ftp-site-information.png)
+![ftp-binding-and-ssl](images/ftp-binding-and-ssl.png)
+![ftp-auth-info](images/ftp-auth-info.png)
+Wireshark inden kryptering af TCP-trafikken.
+![ftp-wireshark-ftp](images/ftp-wireshark-ftp.png)
+Wireshark efter kryptering af TCP-traffikken.
+![ftp-wireshark-esp](images/ftp-wireshark-esp.png)
 <br/>
+Giver Domain Users adgang til FTP-mappen.
 ![ftpdata-properties-domain-users](images/ftpdata-properties-domain-users.png)
 <br/>
 ![ftp-server2-access-client1](images/ftp-server2-access-client1.png)
