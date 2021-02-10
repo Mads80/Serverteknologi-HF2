@@ -112,17 +112,19 @@ For at kunne ping og ftp til Server2 har vi deaktiveret firewall.
 ![ftp-add-server-roles](images/ftp-add-server-roles.png)
 ![ftp-select-role-services](images/ftp-select-role-services.png)
 ![ftp-opret-fildata-folder](images/ftp-opret-fildata-folder.png)
+Giver Domain Users adgang til FTP-mappen.
+<br/>
+![ftpdata-properties-domain-users](images/ftpdata-properties-domain-users.png)
 ![ftp-add-ftp-site](images/ftp-add-ftp-site.png)
 ![ftp-site-information](images/ftp-site-information.png)
 ![ftp-binding-and-ssl](images/ftp-binding-and-ssl.png)
 ![ftp-auth-info](images/ftp-auth-info.png)
 Wireshark inden kryptering af TCP-trafikken.
+<br/>
 ![ftp-wireshark-ftp](images/ftp-wireshark-ftp.png)
 Wireshark efter kryptering af TCP-traffikken.
-![ftp-wireshark-esp](images/ftp-wireshark-esp.png)
 <br/>
-Giver Domain Users adgang til FTP-mappen.
-![ftpdata-properties-domain-users](images/ftpdata-properties-domain-users.png)
+![ftp-wireshark-esp](images/ftp-wireshark-esp.png)
 <br/>
 ![ftp-server2-access-client1](images/ftp-server2-access-client1.png)
 <!-------------------------------------------------------------------- DEL-5 ---------------------------------------------------------------------------------------->
