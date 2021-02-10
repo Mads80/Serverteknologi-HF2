@@ -10,9 +10,8 @@ Af Mark, Jacob & Mads
 * [Del-2](#del-2)
 * [Del-3](#del-3)
 	* [Underpunkt-1](#)
-* [Del-4](#)
-	* [Underpunkt-1](#)
-* [Del-5](#)
+* [Del-4](#del-4)
+* [Del-5](#del-5)
 * [Del-6](#)
 * [Del-7](#)
 * [Del-8](#)
@@ -21,7 +20,6 @@ Af Mark, Jacob & Mads
 * [Del-11](#)
 	* [Underpunkt-1](#)
 	* [Underpunkt-2](#)
-* [Del-12](#)
 
 <!-------------------------------------------------------------------- DEL-1 ---------------------------------------------------------------------------------------->
 ## Del-1
@@ -68,21 +66,6 @@ Installerer DNS på Server2.
 <br/>
 <!-------------------------------------------------------------------- DEL-3 ---------------------------------------------------------------------------------------->
 ## Del-3
-Vi har ikke brug for at konfigurere en IpHelper (DHCP Relay agent) da alle enheder er på samme fysiske subnet.
-<br/>
-<br/>
-DHCP options 003, 006 og 015 konfigureres på DHCP serveren:
-003 Router: Angiver en liste over Ip-adresser over alle routere på samme subnet som DHCP klienterne. 
-Klienterne kender nu alle de routere der er tilgængelige på nettet så de kan kontaktes efter behov hvis der skal sendes IP pakker til hosts på andre netværk.
-<br/>
-<br/>
-006 DNS Servers: Ip-adressen på de DNS servere, på subnettet, som DHCP klienter kan kontakte hvis de skal have fat i en IP-adresse via domænenavnet eller omvendt.
-<br/>
-<br/>
-015 DNS Domain Name: Angiver det domæne navn som DHCP klienter skal anvende hvis de skal resolve et ukvalificeret domæne navn. 
-Denne indstillinger tillader også at DHCP klienter kan lave dynamiske DNS opdateringer.
-<br/>
-<br/>
 Opsætning af DHCP.
 <br/>
 ![dhcp-install-auth](images/dhcp-install-auth.png)
@@ -107,6 +90,20 @@ DHCP virker på Client1.
 <br/>
 ![dhcp-virker-client1](images/dhcp-virker-client1.png)
 <br/>
+Vi har ikke brug for at konfigurere en IpHelper (DHCP Relay agent) da alle enheder er på samme fysiske subnet.
+<br/>
+<br/>
+DHCP options 003, 006 og 015 konfigureres på DHCP serveren:
+003 Router: Angiver en liste over Ip-adresser over alle routere på samme subnet som DHCP klienterne. 
+Klienterne kender nu alle de routere der er tilgængelige på nettet så de kan kontaktes efter behov hvis der skal sendes IP pakker til hosts på andre netværk.
+<br/>
+<br/>
+006 DNS Servers: Ip-adressen på de DNS servere, på subnettet, som DHCP klienter kan kontakte hvis de skal have fat i en IP-adresse via domænenavnet eller omvendt.
+<br/>
+<br/>
+015 DNS Domain Name: Angiver det domæne navn som DHCP klienter skal anvende hvis de skal resolve et ukvalificeret domæne navn. 
+Denne indstillinger tillader også at DHCP klienter kan lave dynamiske DNS opdateringer.
+<br/>
 <!-------------------------------------------------------------------- DEL-4 ---------------------------------------------------------------------------------------->
 ## Del-4
 For at kunne ping og ftp til Server2 har vi deaktiveret firewall.
@@ -116,3 +113,6 @@ For at kunne ping og ftp til Server2 har vi deaktiveret firewall.
 ![ftpdata-properties-domain-users](images/ftpdata-properties-domain-users.png)
 <br/>
 ![ftp-server2-access-client1](images/ftp-server2-access-client1.png)
+<!-------------------------------------------------------------------- DEL-5 ---------------------------------------------------------------------------------------->
+##Del-5
+![remote-access-management-console](images/remote-access-management-console.png)
