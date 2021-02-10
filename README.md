@@ -157,5 +157,11 @@ Client1 har adgang til FTP-mappen på Server2.
 <!-------------------------------------------------------------------- DEL-5 ---------------------------------------------------------------------------------------->
 
 ## Del-5
+![vpn-select-server-roles](images/vpn-select-server-roles.png)
+![vpn-select-role-services](images/vpn-select-role-services.png)
+![vpn-new-object-user](images/vpn-new-object-user.png)
+![vpn-dial-in-access](images/vpn-dial-in-access.png)
+![vpn-ad-user-list](images/vpn-ad-user-list.png)
+<br/>
 ![remote-access-management-console](images/remote-access-management-console.png)
 <br/>
