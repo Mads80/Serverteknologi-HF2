@@ -111,6 +111,9 @@ For at kunne ping og ftp til Server2 har vi deaktiveret firewall.
 ![disable-firewall-server2](images/disable-firewall-server2.png)
 ![ftp-add-server-roles](images/ftp-add-server-roles.png)
 ![ftp-select-role-services](images/ftp-select-role-services.png)
+<br/>
+Opretter en mappe til vores FTP-data.
+<br/>
 ![ftp-opret-fildata-folder](images/ftp-opret-fildata-folder.png)
 <br/>
 Giver Domain Users adgang til FTP-mappen.
