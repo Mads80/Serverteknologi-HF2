@@ -120,9 +120,11 @@ Giver Domain Users adgang til FTP-mappen.
 ![ftp-site-information](images/ftp-site-information.png)
 ![ftp-binding-and-ssl](images/ftp-binding-and-ssl.png)
 ![ftp-auth-info](images/ftp-auth-info.png)
+<br/>
 Wireshark inden kryptering af TCP-trafikken.
 <br/>
 ![ftp-wireshark-ftp](images/ftp-wireshark-ftp.png)
+<br/>
 Wireshark efter kryptering af TCP-traffikken.
 <br/>
 ![ftp-wireshark-esp](images/ftp-wireshark-esp.png)
