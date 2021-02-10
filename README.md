@@ -169,3 +169,15 @@ Client1 har adgang til FTP-mappen på Server2.
 <br/>
 ![remote-access-management-console](images/remote-access-management-console.png)
 <br/>
+<!-------------------------------------------------------------------- DEL-6 ---------------------------------------------------------------------------------------->
+
+## Del-6
+![performance-monitor-system-report](images/performance-monitor-system-report.png)
+<!-------------------------------------------------------------------- DEL-7 ---------------------------------------------------------------------------------------->
+
+## Del-7
+Når du sætter en disk Quota på en partition så begrænser det plads på brugerniveau. 
+Dvs. man begrænser den mængde plads som hver bruger har tilladelse til at bruge på den enkelte partition, altså pr. volume.
+<br/>
+<br/>
+Begrænser man pladsen med FSRM så er det pr. mappe/drev og ikke pr. bruger. Altså sætter du begrænsningen på mappen/drevet og derunder rammes de brugere som måtte have adgang til den gennem OU's og GP'er.

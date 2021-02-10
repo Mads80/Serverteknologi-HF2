@@ -1,5 +1,5 @@
 Når du sætter en disk Quota på en partition så begrænser det plads på brugerniveau. 
 Dvs. man begrænser den mængde plads som hver bruger har tilladelse til at bruge på den enkelte partition, altså pr. volume.
 
-Begrænser man pladsen med FSRM så er det pr. mappe og ikke bruger. Altså sætter du begrænsningen på mappen og derunder ramme de brugere som måtte have adgang til den gennem OU's og GP'er.
+Begrænser man pladsen med FSRM så er det pr. mappe/drev og ikke bruger. Altså sætter du begrænsningen på mappen og derunder ramme de brugere som måtte have adgang til den gennem OU's og GP'er.
 
