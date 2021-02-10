@@ -1,6 +1,6 @@
 # :desktop_computer: Serverteknologi-HF2
 
-Af Mark, Jacob & Mads
+Af Jacob, Mark & Mads (JMM.LOCAL)
 
 ## Indhold:
 * [Del-1](#del-1)
