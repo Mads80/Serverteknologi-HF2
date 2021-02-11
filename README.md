@@ -262,19 +262,23 @@ Vi opretter 2 printere. En admin-printer (som kun admin kan se), og en-user prin
 <br/>
 Når de er oprettet, går vi ind og laver en gpo for at deploye printeren. Den almindelige "user_printer" laver vi i default Domain Policy, og til "admin_printer", opretter vi en ny GPO som hedder "Admin Printer".
 <br/>
-Her efter sætter vi stien ind i Deploy Pinter, "\\server1\user_printer" og ```\\server1\admin_printer```. 
+Her efter sætter vi stien ind i Deploy Pinter: ```\\server1\user_printer``` og ```\\server1\admin_printer```. 
 <br/>
-![](images/.png)
+![del10-printer-gpo](images/del10-printer-gpo.png)
 <br/>
-![](images/.png)
+![del10-deploy-printer](images/del10-deploy-printer.png)
 <br/>
-![](images/.png)
+Vi går nu under Preferences -> Printers og tilføjer hvilke groups der kan se printeren.
 <br/>
-![](images/.png)
+![del10-new-shared-printer](images/del10-new-shared-printer.png)
 <br/>
-![](images/.png)
+![del10-target-editor](images/del10-target-editor.png)
 <br/>
-![](images/.png)
+Nu kan vi logge ind på klienten med en almindelig bruger og se "user_printer". Logger vi ind med en admin-bruger ser vi både "user_printer" og "admin_printer".
+<br/>
+![del10-alm-bruger](images/del10-alm-bruger.png)
+<br/>
+![del10-admin-bruger](images/del10-admin-bruger.png)
 
 
 <!-------------------------------------------------------------------- DEL-11 ------------------------------------------------------------------------------------->
