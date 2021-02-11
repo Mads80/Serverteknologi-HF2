@@ -180,7 +180,11 @@ Først skal vi aktivere vores nye harddisk.
 <br/>
 ![del7-disk-management](images/del7-disk-management.png)
 <br/>
+Opretter disk quota på hele volume E:
+<br/>
 ![del7-new-volume-disk-quota](images/del7-new-volume-disk-quota.png)
+<br/>
+Sætter rettigheder for Authenticated Users på volume E:
 <br/>
 ![del7-auth-users](images/del7-auth-users.png)
 <br/>
