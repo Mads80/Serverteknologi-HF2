@@ -176,6 +176,23 @@ Client1 har adgang til FTP-mappen på Server2.
 <!-------------------------------------------------------------------- DEL-7 ---------------------------------------------------------------------------------------->
 
 ## Del-7
+![del7-create-quota](images/del7-create-quota.png)
+<br/>
+![del7-server-roles](images/del7-server-roles.png)
+<br/>
+![del7-disk-management](images/del7-disk-management.png)
+<br/>
+![del7-new-volume-disk-quota](images/del7-new-volume-disk-quota.png)
+<br/>
+![del7-auth-users](images/del7-auth-users.png)
+<br/>
+![del7-quota-properties](images/del7-quota-properties.png)
+<br/>
+![del7-quota-save-custom](images/del7-quota-save-custom.png)
+<br/>
+![del7-file-server-res-manager](images/del7-file-server-res-manager.png)
+<br/>
+<br/>
 Når du sætter en disk Quota på en partition så begrænser det plads på brugerniveau. 
 Dvs. man begrænser den mængde plads som hver bruger har tilladelse til at bruge på den enkelte partition, altså pr. volume.
 <br/>
