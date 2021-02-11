@@ -19,8 +19,8 @@ Af Jacob, Mark & Mads (JMM.LOCAL)
 * [Del-10](#del-10)
 * [Del-11](#del-11)
 
-<!-------------------------------------------------------------------- DEL-1 -------------------------------------------------------------------------------------->
 
+<!-------------------------------------------------------------------- DEL-1 -------------------------------------------------------------------------------------->
 ## Del-1
 ### VMWare
 Opretter et extra netkort på Server1 og sætter det til Custom (VMnet4).
@@ -54,8 +54,9 @@ Tilføjer Server2 og Server3 til domænet jmm.local.
 Resultat.
 <br/>
 ![join-domain-server2](images/join-domain-server2.png)
-<!-------------------------------------------------------------------- DEL-2 -------------------------------------------------------------------------------------->
 
+
+<!-------------------------------------------------------------------- DEL-2 -------------------------------------------------------------------------------------->
 ## Del-2
 Opsætning af DNS Forward Lookup Zone (FLZ) og Reverse Lookup Zone (RLZ) for vores domæne.
 <br/>
@@ -79,8 +80,9 @@ blive replikeret til all domæne kontrollere indenfor samme domæne og forest hv
 <br/>
 <br/>
 Secondary DNS zone er en read-only kopi af den primære DNS zone som der anvendes. Den kan ikke selv uddele opdateringer på domænet men kan kun modtage fra den primære zone.
-<!-------------------------------------------------------------------- DEL-3 -------------------------------------------------------------------------------------->
 
+
+<!-------------------------------------------------------------------- DEL-3 -------------------------------------------------------------------------------------->
 ## Del-3
 Opsætning af DHCP.
 <br/>
@@ -120,8 +122,9 @@ Klienterne kender nu alle de routere der er tilgængelige på nettet så de kan 
 015 DNS Domain Name: Angiver det domæne navn som DHCP klienter skal anvende hvis de skal resolve et ukvalificeret domæne navn. 
 Denne indstillinger tillader også at DHCP klienter kan lave dynamiske DNS opdateringer.
 <br/>
-<!-------------------------------------------------------------------- DEL-4 -------------------------------------------------------------------------------------->
 
+
+<!-------------------------------------------------------------------- DEL-4 -------------------------------------------------------------------------------------->
 ## Del-4
 For at kunne ping og ftp til Server2 har vi deaktiveret firewall.
 <br/>
@@ -154,8 +157,8 @@ Wireshark efter kryptering af TCP-traffikken.
 <br/>
 ![ftp-wireshark-esp](images/ftp-wireshark-esp.png)
 
-<!-------------------------------------------------------------------- DEL-5 -------------------------------------------------------------------------------------->
 
+<!-------------------------------------------------------------------- DEL-5 -------------------------------------------------------------------------------------->
 ## Del-5
 ![vpn-select-server-roles](images/vpn-select-server-roles.png)
 <br/>
@@ -171,9 +174,11 @@ Wireshark efter kryptering af TCP-traffikken.
 <br/>
 <!-------------------------------------------------------------------- DEL-6 -------------------------------------------------------------------------------------->
 
+
 ## Del-6
 ![performance-monitor-system-report](images/performance-monitor-system-report.png)
 <!-------------------------------------------------------------------- DEL-7 -------------------------------------------------------------------------------------->
+
 
 ## Del-7
 Først skal vi aktivere vores nye harddisk.
@@ -207,11 +212,17 @@ Dvs. man begrænser den mængde plads som hver bruger har tilladelse til at brug
 <br/>
 Begrænser man pladsen med FSRM så er det pr. mappe/drev og ikke pr. bruger. Altså sætter du begrænsningen på mappen/drevet og derunder rammes de brugere som måtte have adgang til den gennem OU's og GP'er.
 <br/>
+
+
 <!-------------------------------------------------------------------- DEL-8 -------------------------------------------------------------------------------------->
-
 ## Del-8
-<!-------------------------------------------------------------------- DEL-9 -------------------------------------------------------------------------------------->
+<br/>
+![del8-namespaces](images/del8-namespacespng)
+<br/>
+![del8-replication](images/del8-replication.png)
 
+
+<!-------------------------------------------------------------------- DEL-9 -------------------------------------------------------------------------------------->
 ## Del-9
 Vi starter med at installere Windows Server Backup.
 <br/>
@@ -241,8 +252,7 @@ Her kan man se at det virker og at "test backup mappen" er tilbage efter vi lave
 <br/>
 
 <!-------------------------------------------------------------------- DEL-10 ------------------------------------------------------------------------------------->
-
 ## Del-10
-<!-------------------------------------------------------------------- DEL-11 ------------------------------------------------------------------------------------->
 
+<!-------------------------------------------------------------------- DEL-11 ------------------------------------------------------------------------------------->
 ## Del-11
