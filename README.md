@@ -213,7 +213,6 @@ Begrænser man pladsen med FSRM så er det pr. mappe/drev og ikke pr. bruger. Al
 <!-------------------------------------------------------------------- DEL-9 -------------------------------------------------------------------------------------->
 
 ## Del-9
-### Backup
 Vi starter med at installere windows server backup.
 <br/>
 ![del9-select-features](images/del9-select-features.png)
