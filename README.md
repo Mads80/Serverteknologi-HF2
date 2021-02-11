@@ -216,7 +216,7 @@ Begrænser man pladsen med FSRM så er det pr. mappe/drev og ikke pr. bruger. Al
 
 <!-------------------------------------------------------------------- DEL-8 -------------------------------------------------------------------------------------->
 ## Del-8
-![del8-namespaces](images/del8-namespacespng)
+![del8-namespaces](images/del8-namespaces.png)
 <br/>
 ![del8-replication](images/del8-replication.png)
 
@@ -252,6 +252,30 @@ Her kan man se at det virker og at "test backup mappen" er tilbage efter vi lave
 
 <!-------------------------------------------------------------------- DEL-10 ------------------------------------------------------------------------------------->
 ## Del-10
+Vi opretter 2 printere. En admin-printer (som kun admin kan se), og en-user printer (som alle brugere kan se). Vi starter med at lave dem i Printers and Devices.
+<br/>
+![del10-admin-printer](images/del10-admin-printer.png)
+<br/>
+![del10-older-printer](images/del10-older-printer.png)
+<br/>
+![del10-user-printer](images/del10-user-printer.png)
+<br/>
+Når de er oprettet, går vi ind og laver en gpo for at deploye printeren. Den almindelige "user_printer" laver vi i default Domain Policy, og til "admin_printer", opretter vi en ny GPO som hedder "Admin Printer".
+<br/>
+Her efter sætter vi stien ind i Deploy Pinter, "\\server1\user_printer" og ```\\server1\admin_printer```. 
+<br/>
+![](images/.png)
+<br/>
+![](images/.png)
+<br/>
+![](images/.png)
+<br/>
+![](images/.png)
+<br/>
+![](images/.png)
+<br/>
+![](images/.png)
+
 
 <!-------------------------------------------------------------------- DEL-11 ------------------------------------------------------------------------------------->
 ## Del-11
