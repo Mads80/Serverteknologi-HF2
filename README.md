@@ -216,7 +216,6 @@ Begrænser man pladsen med FSRM så er det pr. mappe/drev og ikke pr. bruger. Al
 
 <!-------------------------------------------------------------------- DEL-8 -------------------------------------------------------------------------------------->
 ## Del-8
-<br/>
 ![del8-namespaces](images/del8-namespacespng)
 <br/>
 ![del8-replication](images/del8-replication.png)
