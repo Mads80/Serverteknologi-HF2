@@ -277,9 +277,11 @@ Vi går nu under Preferences -> Printers og tilføjer hvilke groups der kan se p
 <br/>
 ![del10-target-editor](images/del10-target-editor.png)
 <br/>
-Nu kan vi logge ind på klienten med en almindelig bruger og se "user_printer". Logger vi ind med en admin-bruger ser vi både "user_printer" og "admin_printer".
+Nu kan vi logge ind på klienten med en almindelig bruger og se "user_printer".
 <br/>
 ![del10-alm-bruger](images/del10-alm-bruger.png)
+<br/>
+Logger vi ind med en admin-bruger ser vi både "user_printer" og "admin_printer".
 <br/>
 ![del10-admin-bruger](images/del10-admin-bruger.png)
 <br/>
