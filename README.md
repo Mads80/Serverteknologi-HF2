@@ -9,8 +9,8 @@ Af Jacob, Mark & Mads (JMM.LOCAL)
 	* [Server opsætning](#server-opsætning)
 * [Del-2](#del-2)
 * [Del-3](#del-3)
-	* [Underpunkt-1](#)
 * [Del-4](#del-4)
+	* [Wireshark](#wireshark)
 * [Del-5](#del-5)
 * [Del-6](#del-6)
 * [Del-7](#del-7)
@@ -143,6 +143,11 @@ Giver Domain Users adgang til FTP-mappen.
 ![ftp-binding-and-ssl](images/ftp-binding-and-ssl.png)
 ![ftp-auth-info](images/ftp-auth-info.png)
 <br/>
+Client1 har adgang til FTP-mappen på Server2.
+<br/>
+![ftp-server2-access-client1](images/ftp-server2-access-client1.png)
+<br/>
+### Wireshark
 Wireshark inden kryptering af TCP-trafikken.
 <br/>
 ![ftp-wireshark-ftp](images/ftp-wireshark-ftp.png)
@@ -150,10 +155,7 @@ Wireshark inden kryptering af TCP-trafikken.
 Wireshark efter kryptering af TCP-traffikken.
 <br/>
 ![ftp-wireshark-esp](images/ftp-wireshark-esp.png)
-<br/>
-Client1 har adgang til FTP-mappen på Server2.
-<br/>
-![ftp-server2-access-client1](images/ftp-server2-access-client1.png)
+
 <!-------------------------------------------------------------------- DEL-5 ---------------------------------------------------------------------------------------->
 
 ## Del-5
