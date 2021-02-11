@@ -219,11 +219,11 @@ Vi starter med at installere windows server backup.
 <br/>
 Efter opretter vi en mappe der hedder test backup mappe og opretter en txt fil, til at teste windows backup services med.
 <br/>
-![del9-backup-mappe](images/del9-backup-mappe.png)
+![del9-test-backup-mappe](images/del9-test-backup-mappe.png)
 <br/>
 Der næst sætter vi backup servives til at lave backup at mappen. Vi ligger backup’en på C drevet.
 <br/>
-![del9-test-backup-service](images/del9-test-backup-service.png)
+![del9-backup-service](images/del9-backup-service.png)
 <br/>
 ![del9-select-items](images/del9-select-items.png)
 <br/>
