@@ -213,15 +213,15 @@ Begrænser man pladsen med FSRM så er det pr. mappe/drev og ikke pr. bruger. Al
 <!-------------------------------------------------------------------- DEL-9 -------------------------------------------------------------------------------------->
 
 ## Del-9
-Vi starter med at installere windows server backup.
+Vi starter med at installere Windows Server Backup.
 <br/>
 ![del9-select-features](images/del9-select-features.png)
 <br/>
-Efter opretter vi en mappe der hedder test backup mappe og opretter en txt fil, til at teste windows backup services med.
+Derefter opretter vi en mappe der hedder "test backup mappe" og opretter en .txt fil, som vi bruger til at teste Windows Backup Services med.
 <br/>
 ![del9-test-backup-mappe](images/del9-test-backup-mappe.png)
 <br/>
-Der næst sætter vi backup servives til at lave backup at mappen. Vi ligger backup’en på C drevet.
+Dernæst sætter vi Backup Servives til at lave backup at mappen. Vi ligger backup’en på C-drevet.
 <br/>
 ![del9-backup-service](images/del9-backup-service.png)
 <br/>
@@ -229,13 +229,13 @@ Der næst sætter vi backup servives til at lave backup at mappen. Vi ligger bac
 <br/>
 ![del9-select-backup-destination](images/del9-select-backup-destination.png)
 <br/>
-Nu har vi lavet backup og vi går nu ind og sletter mappen helt fra windows og prøver at recover den.
+Nu har vi lavet backup og vi går nu ind og sletter mappen helt og prøver dernæst at gendanne den.
 <br/>
 ![del9-slet-mappe](images/del9-slet-mappe.png)
 <br/>
 ![del9-recover-mappe](images/del9-recover-mappe.png)
 <br/>
-Nu kan man se at det virker og at test backup mappen er tilbage efter vi lavede recorver.
+Her kan man se at det virker og at "test backup mappen" er tilbage efter vi lavede gendannelse.
 <br/>
 ![del9-mappe-gendannet](images/del9-mappe-gendannet.png)
 <br/>
