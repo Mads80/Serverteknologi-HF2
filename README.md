@@ -223,7 +223,7 @@ Efter opretter vi en mappe der hedder test backup mappe og opretter en txt fil, 
 <br/>
 Der næst sætter vi backup servives til at lave backup at mappen. Vi ligger backup’en på C drevet.
 <br/>
-![del9-backup-service](images/del9-backup-service.png)
+![del9-test-backup-service](images/del9-test-backup-service.png)
 <br/>
 ![del9-select-items](images/del9-select-items.png)
 <br/>
