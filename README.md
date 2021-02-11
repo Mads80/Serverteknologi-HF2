@@ -156,6 +156,7 @@ Wireshark inden kryptering af TCP-trafikken.
 Wireshark efter kryptering af TCP-traffikken.
 <br/>
 ![ftp-wireshark-esp](images/ftp-wireshark-esp.png)
+<br/>
 
 
 <!-------------------------------------------------------------------- DEL-5 -------------------------------------------------------------------------------------->
@@ -172,14 +173,14 @@ Wireshark efter kryptering af TCP-traffikken.
 <br/>
 ![remote-access-management-console](images/remote-access-management-console.png)
 <br/>
+
+
 <!-------------------------------------------------------------------- DEL-6 -------------------------------------------------------------------------------------->
-
-
 ## Del-6
 ![performance-monitor-system-report](images/performance-monitor-system-report.png)
+
+
 <!-------------------------------------------------------------------- DEL-7 -------------------------------------------------------------------------------------->
-
-
 ## Del-7
 Først skal vi aktivere vores nye harddisk.
 <br/>
@@ -219,6 +220,7 @@ Begrænser man pladsen med FSRM så er det pr. mappe/drev og ikke pr. bruger. Al
 ![del8-namespaces](images/del8-namespaces.png)
 <br/>
 ![del8-replication](images/del8-replication.png)
+<br/>
 
 
 <!-------------------------------------------------------------------- DEL-9 -------------------------------------------------------------------------------------->
@@ -250,6 +252,7 @@ Her kan man se at det virker og at "test backup mappen" er tilbage efter vi lave
 ![del9-mappe-gendannet](images/del9-mappe-gendannet.png)
 <br/>
 
+
 <!-------------------------------------------------------------------- DEL-10 ------------------------------------------------------------------------------------->
 ## Del-10
 Vi opretter 2 printere. En admin-printer (som kun admin kan se), og en-user printer (som alle brugere kan se). Vi starter med at lave dem i Printers and Devices.
@@ -279,6 +282,7 @@ Nu kan vi logge ind på klienten med en almindelig bruger og se "user_printer". 
 ![del10-alm-bruger](images/del10-alm-bruger.png)
 <br/>
 ![del10-admin-bruger](images/del10-admin-bruger.png)
+<br/>
 
 
 <!-------------------------------------------------------------------- DEL-11 ------------------------------------------------------------------------------------->
