@@ -203,6 +203,7 @@ sidste billede viser vi har lov til at tilgå den via clienten.
 
 <!-------------------------------------------------------------------- DEL-6 -------------------------------------------------------------------------------------->
 ## Del-6
+Vi kører en performance test på server1. Billedet forneden viser opsummeringen (rapporten) af testen, og det ser ud til at der ikke er nogen komplikationer/fejl som kræver opmærksomhed.
 ![performance-monitor-system-report](images/performance-monitor-system-report.png)
 <br/>
 
