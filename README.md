@@ -183,6 +183,11 @@ Wireshark efter kryptering af TCP-traffikken.
 
 <!-------------------------------------------------------------------- DEL-5 -------------------------------------------------------------------------------------->
 ## Del-5
+Vpn
+Ved opsætning af vpn starter vi med at installere remote access og tilføjer vpn, ras og routing.
+Her efter opretter vi en test bruger, som vi skal bruge til teste vpn forbindelse med når den er sat op.
+inde på selve useren redigere vi i dail in så den får lov til at tilgå via vpn. 
+sidste billede viser vi har lov til at tilgå den via clienten.
 ![vpn-select-server-roles](images/vpn-select-server-roles.png)
 <br/>
 ![vpn-select-role-services](images/vpn-select-role-services.png)
