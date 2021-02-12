@@ -247,6 +247,7 @@ Vi installerer DFS Namespace og DFS Replication på både server2 og server3.
 Dernæst sætter vi Namespace op på server server2 og opretter nogle mapper som hedder brouchure og online advert. Der efter bruger vi replication til at få det over på server3. 
 Vi sætter replication op fordi vi ønsker at have det samme indhold på 2 forskellige server, i samme mappe.
 <br/>
+<br/>
 ![del8-dfs-namespaces-replication](images/del8-dfs-namespaces-replication.png)
 <br/>
 ![del8-namespaces](images/del8-namespaces.png)
