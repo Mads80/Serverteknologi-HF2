@@ -243,6 +243,9 @@ Begrænser man pladsen med FSRM så er det pr. mappe/drev og ikke pr. bruger. Al
 
 <!-------------------------------------------------------------------- DEL-8 -------------------------------------------------------------------------------------->
 ## Del-8
+Vi installere DFS namespace og DFS Replication på både server2 og server3. 
+Dernæst sætter vi namespace op på server server2 og opretter nogle mapper som hedder brouchure og online advert. Der efter bruger replication til at få det over på server3. 
+man sætter replication fordi vi øænsker at have det samme indhold på 2 forskellige server, i samme mappe. 
 ![del8-namespaces](images/del8-namespaces.png)
 <br/>
 ![del8-replication](images/del8-replication.png)
