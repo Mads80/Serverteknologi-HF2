@@ -204,7 +204,7 @@ sidste billede viser vi har lov til at tilgå den via clienten.
 <!-------------------------------------------------------------------- DEL-6 -------------------------------------------------------------------------------------->
 ## Del-6
 ![performance-monitor-system-report](images/performance-monitor-system-report.png)
-
+<br/>
 
 <!-------------------------------------------------------------------- DEL-7 -------------------------------------------------------------------------------------->
 ## Del-7
@@ -243,9 +243,12 @@ Begrænser man pladsen med FSRM så er det pr. mappe/drev og ikke pr. bruger. Al
 
 <!-------------------------------------------------------------------- DEL-8 -------------------------------------------------------------------------------------->
 ## Del-8
-Vi installere DFS namespace og DFS Replication på både server2 og server3. 
-Dernæst sætter vi namespace op på server server2 og opretter nogle mapper som hedder brouchure og online advert. Der efter bruger replication til at få det over på server3. 
-man sætter replication fordi vi øænsker at have det samme indhold på 2 forskellige server, i samme mappe. 
+Vi installerer DFS Namespace og DFS Replication på både server2 og server3. 
+Dernæst sætter vi Namespace op på server server2 og opretter nogle mapper som hedder brouchure og online advert. Der efter bruger vi replication til at få det over på server3. 
+Vi sætter replication op fordi vi ønsker at have det samme indhold på 2 forskellige server, i samme mappe.
+<br/>
+![del8-dfs-namespaces-replication](images/del8-dfs-namespaces-replication.png)
+<br/>
 ![del8-namespaces](images/del8-namespaces.png)
 <br/>
 ![del8-replication](images/del8-replication.png)
