@@ -311,3 +311,10 @@ Logger vi ind med en admin-bruger ser vi både "user_printer" og "admin_printer"
 
 <!-------------------------------------------------------------------- DEL-11 ------------------------------------------------------------------------------------->
 ## Del-11
+Opretter WSUS GPO.
+![del11-wsus-gpo](images/del11-wsus-gpo.png)
+<br/>
+Her kan vi se vores klient "Client1" har brug for opdateringer.
+<br/>
+![del11-wsus-client1](images/del11-wsus-client1.png)
+<br/>
