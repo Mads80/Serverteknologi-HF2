@@ -65,6 +65,28 @@ Installerer DNS på Server2.
 <br/>
 ![add-dns-server-server2](images/add-dns-server-server2.png)
 <br/>
+![del2-dns-manager](images/del2-dns-manager.png)
+<br/>
+![del2-new-zone-wizard](images/del2-new-zone-wizard.png)
+<br/>
+![del2-zone-type](images/del2-zone-type.png)
+<br/>
+![del2-ad-zone-rep-scope](images/del2-ad-zone-rep-scope.png)
+<br/>
+![del2-ipv4-reverse-lookup](images/del2-ipv4-reverse-lookup.png)
+<br/>
+![del2-reverse-lookup-zone-name](images/del2-reverse-lookup-zone-name.png)
+<br/>
+![del2-dynamic-update](images/del2-dynamic-update.png)
+<br/>
+![del2-dns-manager](images/del2-dns-manager.png)
+<br/>
+![del2-master-dns-servers](images/del2-master-dns-servers.png)
+<br/>
+![del2-zone-transfers](images/del2-zone-transfers.png)
+<br/>
+![del2-dns-manager-final-view](images/del2-dns-manager-final-view.png)
+<br/>
 <br/>
 FLZ og RLZ står for Forward- og Reverse lookup zones og de lægger basis for hvad DNS-servers gør. 
 En Forward lookup zone mapper domænenavne til ip-adresser og gemmer informationen som 
