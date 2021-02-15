@@ -3,21 +3,21 @@
 Af Jacob, Mark & Mads (JMM.LOCAL)
 
 ## Indhold:
-* [Del-1 // Forberedelse](#del-1-//-forberedelse)
+* [Del-1 // Forberedelse](#del-1--forberedelse)
 	* [VMWare](#vmware)
 	* [IP Table](#ip-table)
 	* [Server opsætning](#server-opsætning)
-* [Del-2 // DNS](#del-2)
-* [Del-3 // DHCP](#del-3)
-* [Del-4 // FTP](#del-4)
+* [Del-2 // DNS](#del-2--dns)
+* [Del-3 // DHCP](#del-3--dhcp)
+* [Del-4 // FTP](#del-4--ftp)
 	* [Wireshark](#wireshark)
-* [Del-5](#del-5)
-* [Del-6](#del-6)
-* [Del-7](#del-7)
-* [Del-8](#del-8)
-* [Del-9](#del-9)
-* [Del-10](#del-10)
-* [Del-11](#del-11)
+* [Del-5 // VPN](#del-5--vpn)
+* [Del-6 // Performance Monitor](#del-6--performance-monitor)
+* [Del-7 // Disk Quota](#del-7--disk-quota)
+* [Del-8 // DFS](#del-8--dfs)
+* [Del-9 // Backup](#del-9--backup)
+* [Del-10 // Printer](#del-10--printer)
+* [Del-11 // WSUS](#del-11--wsus)
 
 
 <!-------------------------------------------------------------------- DEL-1 -------------------------------------------------------------------------------------->
@@ -147,7 +147,7 @@ Denne indstillinger tillader også at DHCP klienter kan lave dynamiske DNS opdat
 
 
 <!-------------------------------------------------------------------- DEL-4 -------------------------------------------------------------------------------------->
-## Del-4
+## Del-4 // FTP
 For at kunne ping og ftp til Server2 har vi deaktiveret firewall.
 <br/>
 ![disable-firewall-server2](images/disable-firewall-server2.png)
@@ -182,7 +182,7 @@ Wireshark efter kryptering af TCP-traffikken.
 
 
 <!-------------------------------------------------------------------- DEL-5 -------------------------------------------------------------------------------------->
-## Del-5
+## Del-5 // VPN
 Ved opsætning af VPN starter vi med at installere remote access og tilføjer vpn, ras og routing.
 Herefter opretter vi en test bruger, som vi skal bruge til teste vpn forbindelse med når den er sat op.
 inde på selve useren redigere vi i dial-in så den får lov til at tilgå via vpn. 
@@ -202,13 +202,13 @@ sidste billede viser vi har lov til at tilgå den via clienten.
 
 
 <!-------------------------------------------------------------------- DEL-6 -------------------------------------------------------------------------------------->
-## Del-6
+## Del-6 // Performance Monitor
 Vi kører en performance test på server1. Billedet forneden viser opsummeringen (rapporten) af testen, og det ser ud til at der ikke er nogen komplikationer/fejl som kræver opmærksomhed.
 ![performance-monitor-system-report](images/performance-monitor-system-report.png)
 <br/>
 
 <!-------------------------------------------------------------------- DEL-7 -------------------------------------------------------------------------------------->
-## Del-7
+## Del-7 // Disk Quota
 Først skal vi aktivere vores nye harddisk.
 <br/>
 ![del7-disk-management](images/del7-disk-management.png)
@@ -243,7 +243,7 @@ Begrænser man pladsen med FSRM så er det pr. mappe/drev og ikke pr. bruger. Al
 
 
 <!-------------------------------------------------------------------- DEL-8 -------------------------------------------------------------------------------------->
-## Del-8
+## Del-8 // DFS
 Vi installerer DFS Namespace og DFS Replication på både server2 og server3. 
 Dernæst sætter vi Namespace op på server server2 og opretter nogle mapper som hedder brouchure og online advert. Der efter bruger vi replication til at få det over på server3. 
 Vi sætter replication op fordi vi ønsker at have det samme indhold i 2 mapper som ligger på hver sin server.
@@ -258,7 +258,7 @@ Vi sætter replication op fordi vi ønsker at have det samme indhold i 2 mapper 
 
 
 <!-------------------------------------------------------------------- DEL-9 -------------------------------------------------------------------------------------->
-## Del-9
+## Del-9 // Backup
 Vi starter med at installere Windows Server Backup.
 <br/>
 ![del9-select-features](images/del9-select-features.png)
@@ -288,7 +288,7 @@ Her kan man se at det virker og at "test backup mappen" er tilbage efter vi lave
 
 
 <!-------------------------------------------------------------------- DEL-10 ------------------------------------------------------------------------------------->
-## Del-10
+## Del-10 // Printer
 Vi opretter 2 printere. En admin-printer (som kun admin kan se), og en-user printer (som alle brugere kan se). Vi starter med at lave dem i Printers and Devices.
 <br/>
 ![del10-admin-printer](images/del10-admin-printer.png)
@@ -322,7 +322,7 @@ Logger vi ind med en admin-bruger ser vi både "user_printer" og "admin_printer"
 
 
 <!-------------------------------------------------------------------- DEL-11 ------------------------------------------------------------------------------------->
-## Del-11
+## Del-11 // WSUS
 Opretter WSUS GPO.
 ![del11-wsus-gpo](images/del11-wsus-gpo.png)
 <br/>
