@@ -3,7 +3,7 @@
 Af Jacob, Mark & Mads (JMM.LOCAL)
 
 ## Indhold:
-* [Del-1 // Forberedelse](#del-1)
+* [Del-1 // Forberedelse](#del-1-//-forberedelse)
 	* [VMWare](#vmware)
 	* [IP Table](#ip-table)
 	* [Server opsætning](#server-opsætning)
