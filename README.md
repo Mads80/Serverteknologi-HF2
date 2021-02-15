@@ -322,7 +322,7 @@ Logger vi ind med en admin-bruger ser vi både "user_printer" og "admin_printer"
 
 
 <!-------------------------------------------------------------------- DEL-11 ------------------------------------------------------------------------------------->
-## Del-11 // WSUS
+## [Del-11 // WSUS](#desktop_computer-Serverteknologi-HF2)
 Opretter WSUS GPO.
 ![del11-wsus-gpo](images/del11-wsus-gpo.png)
 <br/>
