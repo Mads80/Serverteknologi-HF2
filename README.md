@@ -3,13 +3,13 @@
 Af Jacob, Mark & Mads (JMM.LOCAL)
 
 ## Indhold:
-* [Del-1](#del-1)
+* [Del-1 // Forberedelse](#del-1)
 	* [VMWare](#vmware)
 	* [IP Table](#ip-table)
 	* [Server opsætning](#server-opsætning)
-* [Del-2](#del-2)
-* [Del-3](#del-3)
-* [Del-4](#del-4)
+* [Del-2 // DNS](#del-2)
+* [Del-3 // DHCP](#del-3)
+* [Del-4 // FTP](#del-4)
 	* [Wireshark](#wireshark)
 * [Del-5](#del-5)
 * [Del-6](#del-6)
@@ -21,7 +21,7 @@ Af Jacob, Mark & Mads (JMM.LOCAL)
 
 
 <!-------------------------------------------------------------------- DEL-1 -------------------------------------------------------------------------------------->
-## Del-1
+## Del-1 // Forberedelse
 ### VMWare
 Opretter et extra netkort på Server1 og sætter det til Custom (VMnet4).
 ![vmware-vmnet4](images/vmware-vmnet4.png)
@@ -57,7 +57,7 @@ Resultat.
 
 
 <!-------------------------------------------------------------------- DEL-2 -------------------------------------------------------------------------------------->
-## Del-2
+## Del-2 // DNS
 Opsætning af DNS Forward Lookup Zone (FLZ) og Reverse Lookup Zone (RLZ) for vores domæne.
 <br/>
 <br/>
@@ -105,7 +105,7 @@ Secondary DNS zone er en read-only kopi af den primære DNS zone som der anvende
 
 
 <!-------------------------------------------------------------------- DEL-3 -------------------------------------------------------------------------------------->
-## Del-3
+## Del-3  // DHCP
 Opsætning af DHCP.
 <br/>
 ![dhcp-install-auth](images/dhcp-install-auth.png)
