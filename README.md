@@ -1,6 +1,6 @@
 # :desktop_computer: Serverteknologi-HF2
 
-Af Jacob, Mark & Mads (JMM.LOCAL)
+:pencil: Af Jacob, Mark & Mads (JMM.LOCAL)
 
 ## Indhold:
 * [Del-1 // Forberedelse](#del-1--forberedelse)
