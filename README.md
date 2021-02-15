@@ -332,4 +332,4 @@ Her kan vi se vores klient "Client1" har brug for opdateringer.
 <br/>
 <br/>
 <br/>
-[Go To TOP](#desktop_computer-Serverteknologi-HF2)
+[Go To TOP](#desktop_computer-Serverteknologi-HF2) :arrow_up:
