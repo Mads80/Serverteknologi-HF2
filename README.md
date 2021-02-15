@@ -203,6 +203,7 @@ sidste billede viser vi har lov til at tilgå den via clienten.
 
 <!-------------------------------------------------------------------- DEL-6 -------------------------------------------------------------------------------------->
 ## Del-6
+Vi kører en performance test på server1. Billedet forneden viser opsummeringen (rapporten) af testen, og det ser ud til at der ikke er nogen komplikationer/fejl som kræver opmærksomhed.
 ![performance-monitor-system-report](images/performance-monitor-system-report.png)
 <br/>
 
@@ -245,7 +246,7 @@ Begrænser man pladsen med FSRM så er det pr. mappe/drev og ikke pr. bruger. Al
 ## Del-8
 Vi installerer DFS Namespace og DFS Replication på både server2 og server3. 
 Dernæst sætter vi Namespace op på server server2 og opretter nogle mapper som hedder brouchure og online advert. Der efter bruger vi replication til at få det over på server3. 
-Vi sætter replication op fordi vi ønsker at have det samme indhold på 2 forskellige server, i samme mappe.
+Vi sætter replication op fordi vi ønsker at have det samme indhold i 2 mapper som ligger på hver sin server.
 <br/>
 <br/>
 ![del8-dfs-namespaces-replication](images/del8-dfs-namespaces-replication.png)
