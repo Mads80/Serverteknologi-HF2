@@ -330,3 +330,6 @@ Her kan vi se vores klient "Client1" har brug for opdateringer.
 <br/>
 ![del11-wsus-client1](images/del11-wsus-client1.png)
 <br/>
+<br/>
+<br/>
+[Go To TOP](#desktop_computer-Serverteknologi-HF2)
